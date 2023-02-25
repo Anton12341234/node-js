@@ -14,7 +14,7 @@ const DB_URL = `mongodb+srv://anton:0932304567@cluster0.j8curid.mongodb.net/?ret
 const app = express()
 
 const corsOptions = {
-  origin: "http://anton-popovich.pp.ua/",
+  origin: "http://185.233.118.209:4000/",
 };
 
 const __filename = fileURLToPath(import.meta.url);
